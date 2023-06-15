@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('IMG/fundo_imagem.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100vw;
+    height: 100vh;
+}
+
+#conteudo{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 400px;
+    height: 450px;
+    top: 15%;
+    left: 60%;
+    border-radius: 20%;
+   
+}
+
+h2{
+    color: green;
+    padding-left: 29px;
+    padding-top: 15px;
+   font-size: 45px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#txt1{
+    padding-left: 80px;
+    
+}
+
+button{
+    display: block;
+    position: absolute;
+    margin-left: 120px;
+    top: 43%;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    color: blue;
+    font-size: large;
+    border: 1px solid green;
+}
+
+button:hover{
+    background-color: rgb(7, 107, 7);
+    color: white;
+}
+
+img{
+    width: 150px;
+    padding-top: 180px;
+    padding-left: 122px;
+}
+
+@media screen and (min-width: 480px) and (max-width:992px) {
+   #conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.877);
+
+   }
+   
+  }

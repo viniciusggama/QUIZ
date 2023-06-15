@@ -1,0 +1,28 @@
+*{
+    text-decoration: none;
+}
+
+p{
+    font-size: 23px;
+    padding:5%;
+    padding-top: 10%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    font-size: 25px; 
+    padding: 23%;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a:hover{
+    color: green;
+}
+
+#logo{
+   display: block;
+    padding: 0px;
+    width: 80px;
+    margin: auto;
+}
