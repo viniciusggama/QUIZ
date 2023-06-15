@@ -17,7 +17,7 @@ body{
     width: 400px;
     height: 450px;
     top: 15%;
-    left: 60%;
+    left:60%;
     border-radius: 20%;
    
 }
@@ -61,12 +61,13 @@ img{
     padding-left: 122px;
 }
 
-@media screen and (min-width: 480px) and (max-width:992px) {
+@media screen and (min-width: 380px) and (max-width:992px) {
    #conteudo{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 390px;
     background-color: rgba(255, 255, 255, 0.877);
 
    }
