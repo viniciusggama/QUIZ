@@ -67,9 +67,17 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 390px;
+    width: 370px;
     background-color: rgba(255, 255, 255, 0.877);
+   }
 
+   #txt1{
+    padding-left:95px;
+   }
+
+   h2{
+    font-size: 34px;
+    padding-left: 49px;
    }
    
   }
